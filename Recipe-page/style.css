@@ -1,0 +1,457 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: papayawhip;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+.card{
+    width: 70%;
+    margin: auto ;
+    margin-top: 100px;
+    padding: 80px;
+    background-color: white;
+    border-radius: 20px;
+}
+.description p{
+    color: hsl(33, 7%, 30%);
+}
+
+
+.image img{
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.duration{
+    width: 100%;
+    background-color:  hsl(330, 100%, 98%);
+   padding: 30px;
+   border-radius: 20px;
+   margin-top: 10px;
+}
+
+.duration h3{
+    color: hsl(332, 51%, 32%);
+
+}
+
+.duration ul{
+    padding: 10px;
+    margin-left: 30px;
+    color: hsl(33, 7%, 30%);
+}
+.ingredients h2{
+    color:  hsl(31, 73%, 36%) ;
+
+}
+.ingredients ul{
+    color: hsl(30, 4%, 49%);
+    margin-left: 30px;
+
+}
+.instructions h3{
+    margin-top: 10px;
+    color:  hsl(31, 73%, 36%) ;
+
+}
+
+.instructions ol{
+     color: hsl(36, 2%, 41%);
+     margin-left: 30px;
+}
+
+.nutrition h4{
+    color:  hsl(31, 73%, 36%) ;
+    margin-top: 10px;
+
+}
+
+.nutrition p{
+    color: hsl(36, 2%, 41%);
+}
+.nutrition-value{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.nutrition-value p{
+    color:  hsl(31, 90%, 32%) ;
+}
+
+.nutrition-value h5{
+    color: hsl(36, 2%, 41%);
+
+}
+
+@media (max-width:375px){
+    body{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-size: 11px;
+    }
+
+    .card{
+        width: 100%;
+        background-color: white;
+        border-radius: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .image img{
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .description p{
+        color: hsl(33, 7%, 30%);
+    }
+    
+    .duration{
+        background-color:  hsl(330, 100%, 98%);
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    
+    .duration h3{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .duration ul{
+        padding: 5px;
+        margin-left: 10px;
+        color: hsl(33, 7%, 30%);
+    }
+
+    .ingredients h2{
+        color:  hsl(31, 73%, 36%) ;
+    }
+
+    .ingredients ul{
+        color: hsl(30, 4%, 49%);
+        margin-left: 10px;
+    
+    }
+    .instructions h3{
+        margin-top: 10px;
+        color:  hsl(31, 73%, 36%) ;
+    }
+    
+    .instructions ol{
+         color: hsl(36, 2%, 41%);
+         margin-left: 10px;
+    }
+    
+    .nutrition h4{
+        color:  hsl(31, 73%, 36%) ;
+        margin-top: 10px;
+    }
+    
+    .nutrition p{
+        color: hsl(36, 2%, 41%);
+    }
+
+    .nutrition-value{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    
+    .nutrition-value p{
+        color:  hsl(31, 90%, 32%) ;
+    }
+    
+    .nutrition-value h5{
+        color: hsl(36, 2%, 41%);
+    }
+
+}
+
+@media (max-width:575px){
+    body{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .card{
+        width: 100%;
+        background-color: white;
+        border-radius: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .image img{
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .description p{
+        color: hsl(33, 7%, 30%);
+    }
+    
+    .duration{
+        background-color:  hsl(330, 100%, 98%);
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    
+    .duration h3{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .duration ul{
+        padding: 5px;
+        margin-left: 10px;
+        color: hsl(33, 7%, 30%);
+    }
+
+    .ingredients h2{
+        color:  hsl(31, 73%, 36%) ;
+    }
+
+    .ingredients ul{
+        color: hsl(30, 4%, 49%);
+        margin-left: 10px;
+    
+    }
+    .instructions h3{
+        margin-top: 10px;
+        color:  hsl(31, 73%, 36%) ;
+    }
+    
+    .instructions ol{
+         color: hsl(36, 2%, 41%);
+         margin-left: 10px;
+    }
+    
+    .nutrition h4{
+        color:  hsl(31, 73%, 36%) ;
+        margin-top: 10px;
+    }
+    
+    .nutrition p{
+        color: hsl(36, 2%, 41%);
+    }
+
+    .nutrition-value{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    
+    .nutrition-value p{
+        color:  hsl(31, 90%, 32%) ;
+    }
+    
+    .nutrition-value h5{
+        color: hsl(36, 2%, 41%);
+    }
+
+}
+
+
+@media (max-width:705px){
+    body{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .card{
+        width: 100%;
+        background-color: white;
+        border-radius: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .image img{
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .description p{
+        color: hsl(33, 7%, 30%);
+    }
+    
+    .duration{
+        background-color:  hsl(330, 100%, 98%);
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    
+    .duration h3{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .duration ul{
+        padding: 5px;
+        margin-left: 10px;
+        color: hsl(33, 7%, 30%);
+    }
+
+    .ingredients h2{
+        color:  hsl(31, 73%, 36%) ;
+    }
+
+    .ingredients ul{
+        color: hsl(30, 4%, 49%);
+        margin-left: 10px;
+    
+    }
+    .instructions h3{
+        margin-top: 10px;
+        color:  hsl(31, 73%, 36%) ;
+    }
+    
+    .instructions ol{
+         color: hsl(36, 2%, 41%);
+         margin-left: 10px;
+    }
+    
+    .nutrition h4{
+        color:  hsl(31, 73%, 36%) ;
+        margin-top: 10px;
+    }
+    
+    .nutrition p{
+        color: hsl(36, 2%, 41%);
+    }
+
+    .nutrition-value{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    
+    .nutrition-value p{
+        color:  hsl(31, 90%, 32%) ;
+    }
+    
+    .nutrition-value h5{
+        color: hsl(36, 2%, 41%);
+    }
+
+}
+
+
+@media (max-width:1440px){
+    body{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .card{
+        width: 100%;
+        background-color: white;
+        border-radius: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .image img{
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .description p{
+        color: hsl(33, 7%, 30%);
+    }
+    
+    .duration{
+        background-color:  hsl(330, 100%, 98%);
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    
+    .duration h3{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .duration ul{
+        padding: 5px;
+        margin-left: 10px;
+        color: hsl(33, 7%, 30%);
+    }
+
+    .ingredients h2{
+        color:  hsl(31, 73%, 36%) ;
+    }
+
+    .ingredients ul{
+        color: hsl(30, 4%, 49%);
+        margin-left: 10px;
+    
+    }
+    .instructions h3{
+        margin-top: 10px;
+        color:  hsl(31, 73%, 36%) ;
+    }
+    
+    .instructions ol{
+         color: hsl(36, 2%, 41%);
+         margin-left: 10px;
+    }
+    
+    .nutrition h4{
+        color:  hsl(31, 73%, 36%) ;
+        margin-top: 10px;
+    }
+    
+    .nutrition p{
+        color: hsl(36, 2%, 41%);
+    }
+
+    .nutrition-value{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    
+    .nutrition-value p{
+        color:  hsl(31, 90%, 32%) ;
+    }
+    
+    .nutrition-value h5{
+        color: hsl(36, 2%, 41%);
+    }
+
+}
+
+
